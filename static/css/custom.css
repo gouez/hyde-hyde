@@ -1,9 +1,9 @@
 html,
 body
 {
-    font-family: 'Fira Sans', sans-serif;
-    font-size: 18px;
-    font-weight: 300;
+    font-family: -apple-system, BlinkMacSystemFont, 'Avenir Next', Avenir, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
+    font-size: 16px;
+    /*font-weight: 300;*/
     line-height: 1.5;
 }
 
@@ -33,7 +33,7 @@ body
 .meta
 {
     font-size: .8rem !important;
-    font-weight: 300;
+    /*font-weight: 300;*/
 }
 
 pre
@@ -50,10 +50,15 @@ pre
     overflow-x: auto; /* no line wrapping */
 }
 
+.hljs-comment{
+    color: #969896!important;
+    font-weight: 100px
+}
+
 pre,
 code
 {
-    font-family: monospace;
+    /*font-family: monospace;*/
     border-radius: 4px;
     width: 100%;
     font-size: .85em;
@@ -61,8 +66,8 @@ code
 
 code {
 	padding:.15em .3em;
-	background: #272932!important;
-	color: #ececec!important;
+	/*background: #272932!important;*/
+	/*color: #ececec!important;*/
 	box-sizing: border-box;
 	margin: 0 .25em;
 }
@@ -82,3 +87,21 @@ img.center
     margin-right: auto;
     margin-left: auto;
 }
+
+.iconfont{
+    font-family: iconfont!important;
+    font-style: normal;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-stroke-width: .2px;
+    -moz-osx-font-smoothing: grayscale;
+    cursor: pointer;
+}
+/**
+.icon-right:before {
+    content: "\E60A";
+}
+
+.icon-left:before {
+    content: "\E60B";
+}
+**/

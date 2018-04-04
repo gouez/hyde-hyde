@@ -188,7 +188,7 @@ blockquote {
   padding: .5rem 1rem;
   margin: .8rem 0;
   color: #7a7a7a;
-  border-left: .25rem solid #e5e5e5;
+  border-left: .52rem solid #009A61;;
 }
 blockquote p:last-child {
   margin-bottom: 0;
@@ -365,6 +365,22 @@ tbody tr:nth-child(odd) th {
   font-family: "PT Sans", Helvetica, Arial, sans-serif;
   color: #ccc;
   text-align: center;
+}
+
+.pagination .next {
+  float: right;
+}
+.pagination .prev {
+  float: left;
+}
+
+.pagination .next,
+.pagination .prev{
+  font-weight: 600;
+  font-size: 20px;
+  font-family: Athelas,STHeiti,Microsoft Yahei,serif ;
+  color: #34495e;
+  text-decoration: none;
 }
 
 /* Pagination items can be `span`s or `a`s */
